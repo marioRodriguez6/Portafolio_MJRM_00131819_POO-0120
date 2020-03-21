@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="carro clase y obj:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/carro_clase_y_obj_jar</output-path>
+    <root id="archive" name="carro clase y obj.jar">
+      <element id="module-output" name="carro clase y obj" />
+    </root>
+  </artifact>
+</component>

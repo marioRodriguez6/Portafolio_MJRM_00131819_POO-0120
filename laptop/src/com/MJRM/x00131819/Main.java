@@ -27,12 +27,5 @@ public class Main {
 
 
 
-
-	/*Laptop x;
-	x = new Laptop("Samsung", "AMD", 16,1600);
-		String Marca = x.Obtenermarca();
-		String procesadoR = x.Obtenerprocesador();
-		int Ram = x.Obtenerram();
-		int mila = x.Obtenerbate();*/
     }
 }
