@@ -2,6 +2,7 @@ package com.MJRM.x00131819;
 
 import java.io.Serializable;
 
+//atributos
 public class Laptop {
     private String marca;
     private String procesador;
@@ -32,12 +33,9 @@ public class Laptop {
         System.out.println("Enseñando caracteristicas de su laptop.....\n");
     }
 
-    //atributos
-
     public int Obtenerram(){
         System.out.println("Ram en su computadora: " + ram + " G");
-        return this.ram;
-    }
+        return this.ram; }
 
     public int Obtenerbateria(){
         System.out.println("Potencia de bateria en su computadora: " + bateria + "Mh");
@@ -54,19 +52,19 @@ public class Laptop {
         return this.procesador;
     }
 
-    public String getMarca() {
+    public String getMarca(){
         return marca;
     }
 
-    public void setMarca(String marca) {
+    public void setMarca(String marca){
         this.marca = marca;
     }
 
-    public String getProcesador() {
+    public String getProcesador(){
         return procesador;
     }
 
-    public void setProcesador(String procesador) {
+    public void setProcesador(String procesador){
         this.procesador = procesador;
     }
 }

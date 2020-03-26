@@ -48,7 +48,6 @@ public class carro {
         System.out.println("El precio del carro es de: " + precio + "  $\n");
         return this.precio;
     }
-
         //getters y setters
         public String getColor() {
             return color;
