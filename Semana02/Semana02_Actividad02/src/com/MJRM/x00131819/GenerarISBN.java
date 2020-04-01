@@ -1,6 +1,6 @@
 package com.MJRM.x00131819;
 
-public class GenerarISBN {
+public final class GenerarISBN {
     private static int counting = 0;
     private GenerarISBN(){}
 

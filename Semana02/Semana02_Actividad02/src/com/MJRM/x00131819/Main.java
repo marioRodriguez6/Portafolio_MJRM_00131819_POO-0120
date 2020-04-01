@@ -97,12 +97,13 @@ public class Main {
                     autores.removeIf(s -> s.getEmail().equals(finalMail));
 
                 break;
-            case 0:
-                return;
+            case 7:
+                System.out.println("saliendo..");
+                break;
             default:
                 System.out.println("Opcion incorreta!");
             }
-        }while(true);
+        }while(opc != 7);
     }
     static void menu1(){
         System.out.println("1. Agregar libro.");
