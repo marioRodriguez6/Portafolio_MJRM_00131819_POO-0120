@@ -1,0 +1,5 @@
+C:\Users\paty6\PortafolioPOO-0120\Portafolio_HACA_00095119_POO-0120\Semana07_Ejericicio01\BuyGames\BuyGames\bin\Debug\BuyGames.exe
+C:\Users\paty6\PortafolioPOO-0120\Portafolio_HACA_00095119_POO-0120\Semana07_Ejericicio01\BuyGames\BuyGames\bin\Debug\BuyGames.pdb
+C:\Users\paty6\PortafolioPOO-0120\Portafolio_HACA_00095119_POO-0120\Semana07_Ejericicio01\BuyGames\BuyGames\obj\Debug\BuyGames.csprojResolveAssemblyReference.cache
+C:\Users\paty6\PortafolioPOO-0120\Portafolio_HACA_00095119_POO-0120\Semana07_Ejericicio01\BuyGames\BuyGames\obj\Debug\BuyGames.exe
+C:\Users\paty6\PortafolioPOO-0120\Portafolio_HACA_00095119_POO-0120\Semana07_Ejericicio01\BuyGames\BuyGames\obj\Debug\BuyGames.pdb
