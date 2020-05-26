@@ -1,47 +1,54 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Rest_Los_Santos
 {
     public partial class Form1 : Form
     {
+        private UserControl current;
+        private Form1 current2;
         public Form1()
         {
             InitializeComponent();
+            current2 = this;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                var passw = ConnectionBD.ExecuteQuery("SELECT contraseña FROM USUARIO " +
-                                                      $"WHERE usuario ='{comboBox1.SelectedItem}'");
-                var password2 = passw.Rows[0];
-                string passWord = password2[0].ToString();
-                
-                if (textBox1.Text.Equals(passWord))
+                var password = ConnectionBD.ExecuteQuery("SELECT contraseña From usuario " +
+                                                         $"WHERE usuario = '{comboBox1.SelectedItem}'");
+                var password2 = password.Rows[0];
+                string password3 = password2[0].ToString();
+
+
+                if (textBox1.Text.Equals(password3))
                 {
-                    var ad = ConnectionBD.ExecuteQuery($"SELECT admins FROM USUARIO " +
-                                                       $"WHERE usuario='{comboBox1.SelectedItem}'");
+                    var ad = ConnectionBD.ExecuteQuery("SELECT tipo FROM usuario " +
+                                                       $"WHERE usuario = '{comboBox1.SelectedItem}'");
                     var adm = ad.Rows[0];
                     bool admin = Convert.ToBoolean(adm[0].ToString());
 
                     if (admin)
                     {
-                        this.Hide();
-                        this.Show(new AdminUC());
+                       AdminUC win = new AdminUC();
+                       tableLayoutPanel1.Controls.Clear();
+                       tableLayoutPanel1.Controls.Add(win, 0, 0);
+                       tableLayoutPanel1.SetColumnSpan(win, 2);
+                       tableLayoutPanel1.SetRowSpan(win,6);
                     }
                     else
                     {
-                        this.Hide();
-                        this.Show(new UsuarioUC());
+                        UsuarioUC win2 = new UsuarioUC(comboBox1.SelectedItem.ToString());
+                        tableLayoutPanel1.Controls.Clear();
+                        tableLayoutPanel1.Controls.Add(win2, 0, 0);
+                        tableLayoutPanel1.SetColumnSpan(win2, 2);
+                        tableLayoutPanel1.SetRowSpan(win2,6);
+                        
+                        
                     }
                 }
             }
