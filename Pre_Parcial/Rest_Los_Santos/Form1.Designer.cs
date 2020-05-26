@@ -31,6 +31,7 @@
         {
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
+            this.register1 = new Rest_Los_Santos.Register();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,6 +43,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.register1, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -65,6 +67,16 @@
             this.label1.Text = "Los Santos Store";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // register1
+            // 
+            this.register1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel1.SetColumnSpan(this.register1, 2);
+            this.register1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.register1.Location = new System.Drawing.Point(3, 97);
+            this.register1.Name = "register1";
+            this.register1.Size = new System.Drawing.Size(658, 350);
+            this.register1.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -78,6 +90,7 @@
         }
 
         private System.Windows.Forms.Label label1;
+        private Rest_Los_Santos.Register register1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
 
         #endregion

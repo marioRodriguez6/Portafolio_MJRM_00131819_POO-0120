@@ -1,5 +1,4 @@
 C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Los_Santos\bin\Debug\Rest_Los_Santos.exe.config
-C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Los_Santos\bin\Debug\Rest_Los_Santos.exe
 C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Los_Santos\bin\Debug\Rest_Los_Santos.pdb
 C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Los_Santos\obj\Debug\Rest_Los_Santos.csprojAssemblyReference.cache
 C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Los_Santos\obj\Debug\Rest_Los_Santos.Properties.Resources.resources
@@ -7,3 +6,8 @@ C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Lo
 C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Los_Santos\obj\Debug\Rest_Los_Santos.csproj.CoreCompileInputs.cache
 C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Los_Santos\obj\Debug\Rest_Los_Santos.exe
 C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Los_Santos\obj\Debug\Rest_Los_Santos.pdb
+C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Los_Santos\obj\Debug\Rest_Los_Santos.AdminUC.resources
+C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Los_Santos\obj\Debug\Rest_Los_Santos.Form1.resources
+C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Los_Santos\obj\Debug\Rest_Los_Santos.Register.resources
+C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Los_Santos\obj\Debug\Rest_Los_Santos.UsuarioUC.resources
+C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial\Rest_Los_Santos\obj\Debug\Rest_Los_Santos.csproj.CopyComplete
