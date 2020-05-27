@@ -46,15 +46,13 @@ namespace Rest_Los_Santos
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.tabPage7 = new System.Windows.Forms.TabPage();
@@ -76,6 +74,7 @@ namespace Rest_Los_Santos
             this.label20 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.tabPage9 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.label15 = new System.Windows.Forms.Label();
@@ -99,7 +98,6 @@ namespace Rest_Los_Santos
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.button2 = new System.Windows.Forms.Button();
-            this.textBox8 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -186,7 +184,7 @@ namespace Rest_Los_Santos
             this.tableLayoutPanel3.Controls.Add(this.label3, 0, 2);
             this.tableLayoutPanel3.Controls.Add(this.groupBox1, 1, 3);
             this.tableLayoutPanel3.Controls.Add(this.textBox1, 1, 2);
-            this.tableLayoutPanel3.Controls.Add(this.comboBox1, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.textBox9, 1, 1);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -196,6 +194,7 @@ namespace Rest_Los_Santos
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(715, 457);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
@@ -309,14 +308,13 @@ namespace Rest_Los_Santos
             this.textBox1.Size = new System.Drawing.Size(182, 20);
             this.textBox1.TabIndex = 8;
             // 
-            // comboBox1
+            // textBox9
             // 
-            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(445, 126);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(182, 21);
-            this.comboBox1.TabIndex = 9;
+            this.textBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox9.Location = new System.Drawing.Point(453, 126);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(166, 20);
+            this.textBox9.TabIndex = 9;
             // 
             // tabPage6
             // 
@@ -340,8 +338,6 @@ namespace Rest_Los_Santos
             this.tableLayoutPanel4.Controls.Add(this.label6, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.label7, 0, 3);
             this.tableLayoutPanel4.Controls.Add(this.button4, 0, 4);
-            this.tableLayoutPanel4.Controls.Add(this.label8, 0, 2);
-            this.tableLayoutPanel4.Controls.Add(this.textBox2, 1, 2);
             this.tableLayoutPanel4.Controls.Add(this.comboBox2, 1, 1);
             this.tableLayoutPanel4.Controls.Add(this.textBox3, 1, 3);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -410,26 +406,6 @@ namespace Rest_Los_Santos
             this.button4.Text = "Modificar";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // label8
-            // 
-            this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label8.ForeColor = System.Drawing.Color.AliceBlue;
-            this.label8.Location = new System.Drawing.Point(3, 182);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(351, 91);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "Contraseña";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Location = new System.Drawing.Point(445, 217);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(182, 20);
-            this.textBox2.TabIndex = 8;
             // 
             // comboBox2
             // 
@@ -647,9 +623,9 @@ namespace Rest_Los_Santos
             // textBox4
             // 
             this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox4.Location = new System.Drawing.Point(445, 192);
+            this.textBox4.Location = new System.Drawing.Point(421, 192);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(182, 20);
+            this.textBox4.Size = new System.Drawing.Size(229, 20);
             this.textBox4.TabIndex = 8;
             // 
             // textBox5
@@ -682,15 +658,26 @@ namespace Rest_Los_Santos
             // button6
             // 
             this.button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button6.BackColor = System.Drawing.Color.Gray;
             this.tableLayoutPanel6.SetColumnSpan(this.button6, 2);
             this.button6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.button6.ForeColor = System.Drawing.Color.AliceBlue;
             this.button6.Location = new System.Drawing.Point(3, 408);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(709, 46);
             this.button6.TabIndex = 13;
             this.button6.Text = "Agregar";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // textBox8
+            // 
+            this.textBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox8.Location = new System.Drawing.Point(435, 111);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(201, 20);
+            this.textBox8.TabIndex = 14;
             // 
             // tabPage9
             // 
@@ -783,6 +770,7 @@ namespace Rest_Los_Santos
             this.button7.TabIndex = 4;
             this.button7.Text = "Modificar";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // label18
             // 
@@ -896,6 +884,7 @@ namespace Rest_Los_Santos
             this.button8.TabIndex = 4;
             this.button8.Text = "Eliminar";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // comboBox6
             // 
@@ -942,6 +931,7 @@ namespace Rest_Los_Santos
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(729, 425);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button1
             // 
@@ -957,6 +947,7 @@ namespace Rest_Los_Santos
             this.button1.TabIndex = 1;
             this.button1.Text = "Recargar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tabPage4
             // 
@@ -1000,14 +991,6 @@ namespace Rest_Los_Santos
             this.button2.TabIndex = 0;
             this.button2.Text = "Regresar Login";
             this.button2.UseVisualStyleBackColor = false;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox8.Location = new System.Drawing.Point(435, 111);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(201, 20);
-            this.textBox8.TabIndex = 14;
             // 
             // AdminUC
             // 
@@ -1055,7 +1038,6 @@ namespace Rest_Los_Santos
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox5;
@@ -1082,7 +1064,6 @@ namespace Rest_Los_Santos
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
@@ -1108,13 +1089,13 @@ namespace Rest_Los_Santos
         private System.Windows.Forms.TabPage tabPage8;
         private System.Windows.Forms.TabPage tabPage9;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox9;
 
         #endregion
     }

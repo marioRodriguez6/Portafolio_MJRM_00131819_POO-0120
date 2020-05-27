@@ -133,6 +133,7 @@
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.textBox1.Location = new System.Drawing.Point(372, 262);
             this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '*';
             this.textBox1.Size = new System.Drawing.Size(147, 20);
             this.textBox1.TabIndex = 5;
             // 

@@ -6,7 +6,7 @@ namespace Rest_Los_Santos
     public class ConnectionBD
     {
         private static string host = "127.0.0.1",
-            database = "Los_Santos_Rest.",
+            database = "Los_Santos_Store",
             userId = "postgres",
             password = "uca";
 

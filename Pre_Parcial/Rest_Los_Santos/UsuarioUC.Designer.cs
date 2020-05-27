@@ -214,6 +214,7 @@ namespace Rest_Los_Santos
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(721, 397);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button3
             // 
@@ -229,6 +230,7 @@ namespace Rest_Los_Santos
             this.button3.TabIndex = 1;
             this.button3.Text = "Recargar";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // tabPage3
             // 
@@ -272,7 +274,7 @@ namespace Rest_Los_Santos
             this.btnBackUUC.TabIndex = 0;
             this.btnBackUUC.Text = "Regresar Login";
             this.btnBackUUC.UseVisualStyleBackColor = false;
-            this.btnBackUUC.Click += new System.EventHandler(this.button2_Click);
+            this.btnBackUUC.Click += new System.EventHandler(this.btnBackUUC_Click);
             // 
             // UsuarioUC
             // 
