@@ -1,0 +1,12 @@
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo10\Labo_10\bin\Debug\Labo_10.exe
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo10\Labo_10\bin\Debug\Labo_10.pdb
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo10\Labo_10\obj\Debug\Labo_10.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo10\Labo_10\obj\Debug\Labo_10.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo10\Labo_10\obj\Debug\Labo_10.exe
+C:\Users\usuario\Documents\00131819_MJRM_POO\00131819_MJRM_POO\Labo10\Labo_10\obj\Debug\Labo_10.pdb
+C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial_03\Labo10\Labo_10\bin\Debug\Labo_10.exe
+C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial_03\Labo10\Labo_10\bin\Debug\Labo_10.pdb
+C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial_03\Labo10\Labo_10\obj\Debug\Labo_10.csprojAssemblyReference.cache
+C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial_03\Labo10\Labo_10\obj\Debug\Labo_10.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial_03\Labo10\Labo_10\obj\Debug\Labo_10.exe
+C:\Users\usuario\Documents\Portafolio_MJRM_00131819_POO-0120\Pre_Parcial_03\Labo10\Labo_10\obj\Debug\Labo_10.pdb

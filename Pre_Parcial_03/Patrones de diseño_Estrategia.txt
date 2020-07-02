@@ -1,0 +1,10 @@
+Estrategia
+
+modifique dos metodos del labo 10 para implementar el patron de diseño llamado estrategia, algo muy util para este problema senti yo.
+
+Al plantear el problema pude ver que siempre se ocupaba una la misma List para ambos metodos de "Show account" y "Sum Accounts" entonces 
+tomando como parametro la lista cree dos clases que iban a hacer las funciones que antes hacia en los cases del switch.
+
+esto lo hace ver de una manera mas ordenada y facil de manejar por un cambio futuro.
+
+se utilizo la interface "AcManagement" donde se tomo como el parametro la lista y las clases antes ya mencionadas para hacer la funcion de las clases.
